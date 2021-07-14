@@ -1,3 +1,29 @@
+
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* Utilities */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 75%;
+  background: #fff;
+  padding: 10px;
+}
+.section-title {
+  text-align: center;
+  font-size: 38px;
+  color: #296c98;
+}
 /* Header Part  */
 .header-banner {
     display: grid;
@@ -37,3 +63,39 @@
     width: 557px;
     height: 438px;
   }  
+  /* Main Section  */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-column-gap: 25px;
+  }
+  .player {
+    width: 85%;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 27px;
+  }
+  .thumbnail {
+    display: grid;
+    justify-items: center;
+  }
+  .player-detail,
+  .thumbnail img {
+    width: 100%;
+  }
+  .player-name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191f;
+    margin-bottom: 0;
+  }
+  .player-detail p {
+    margin-top: 10px;
+    color: #6c6c6c;
+    font-size: 16px;
+  }
+  
