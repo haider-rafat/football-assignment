@@ -1,0 +1,39 @@
+/* Header Part  */
+.header-banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(496px, 1fr));
+    background: #2d25a0;
+    height: 677px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  /* .left-part {
+    grid-column: span 6;
+  } */
+  .headerBannerTitle {
+    font-size: 64px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 17px;
+  }
+  .anchor-link {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    background: #e02c6d;
+    padding: 10px 24px;
+  }
+  .right-part {
+    /* grid-column: span 6; */
+    transition: transform ease-out 1.5s;
+  }
+  .right-part:hover {
+    transform: skew(-20deg, 20deg) scale(1.01);
+  }
+  .banner-img img {
+    width: 557px;
+    height: 438px;
+  }  
